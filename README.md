@@ -41,7 +41,7 @@ CREATE DATABASE zk_admission DEFAULT CHARACTER SET utf8mb4;
 
 | 成员 | 占比 | 模块 |
 | --- | --- | --- |
-| 梁濠光（技术负责人） | 45% | 规则清单/ER 图主导、数据库设计、投档引擎、滑档案例、Git 管理 |
+| （技术负责人） | 45% | 规则清单/ER 图主导、数据库设计、投档引擎、滑档案例、Git 管理 |
 | 组员B | 30% | 前端页面、CRUD 接口、使用与部署说明 |
 | 组员C | 25% | 数据生成器、自动化测试、设计报告/测试材料 |
 
@@ -57,7 +57,7 @@ CREATE DATABASE zk_admission DEFAULT CHARACTER SET utf8mb4;
 
 - [x] 任务书规则梳理（docs/01）
 - [x] ER 图与数据库设计（docs/02 + sql/schema.sql）
-- [ ] 小数据集与逐轮人工推演（预测试，写引擎的前置条件）
+- [x] 小数据集与逐轮人工推演（docs/03，预测试标准答案）
 - [ ] 投档引擎实现 + 单元测试
 - [ ] CRUD 与数据导入
 - [ ] 查询、统计与导出
